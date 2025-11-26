@@ -1,0 +1,134 @@
+/* Michelle's Custom Color Scheme - Purple/Blue Theme */
+
+/* Primary color overrides */
+body {
+    background: linear-gradient(135deg, rgba(106, 13, 173, 0.1), rgba(65, 105, 225, 0.1));
+}
+
+#colorlib-page {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+/* Logo colors */
+.colorlib-logo span:first-child {
+    color: #9130d1 !important;
+}
+
+.colorlib-logo span:last-child {
+    color: #4169e1 !important;
+}
+
+/* Heading colors */
+h1, h2, h3, .bold {
+    color: #f1e4f8 !important;
+}
+
+.heading {
+    color: #6a0dad !important;
+}
+
+/* Button colors */
+.btn-primary {
+    background: #6a0dad !important;
+    border-color: #6a0dad !important;
+}
+
+.btn-primary:hover {
+    background: #4169e1 !important;
+    border-color: #4169e1 !important;
+}
+
+.btn-outline {
+    color: #6a0dad !important;
+    border-color: #6a0dad !important;
+}
+
+.btn-outline:hover {
+    background: #6a0dad !important;
+    color: #fff !important;
+}
+
+/* Link colors */
+a {
+    color: #6a0dad;
+}
+
+a:hover {
+    color: #4169e1;
+}
+
+/* Navigation */
+#colorlib-main-nav {
+    background: linear-gradient(135deg, #6a0dad, #4169e1);
+}
+
+/* Social icons */
+.colorlib-social-icons a {
+    color: #6a0dad !important;
+}
+
+.colorlib-social-icons a:hover {
+    color: #4169e1 !important;
+}
+
+/* Service/Goals section */
+.services h3 {
+    color: #6a0dad;
+}
+
+/* Intro headings */
+.intro-heading span {
+    color: #4169e1;
+}
+
+.intro-heading h2 {
+    color: #6a0dad;
+}
+
+/* Section headings (My Passion, Family Means Everything, etc.) */
+#colorlib-testimony .intro-heading h2,
+#colorlib-about .intro-heading h2 {
+    color: #8e44ad !important;
+}
+
+/* Form elements */
+input[type="submit"].btn-primary {
+    background: #6a0dad !important;
+}
+
+input[type="submit"].btn-primary:hover {
+    background: #4169e1 !important;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #6a0dad, #4169e1);
+}
+
+footer h2 {
+    color: #fff !important;
+}
+
+/* Fitness photos styling */
+#colorlib-testimony img {
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(106, 13, 173, 0.3);
+    transition: transform 0.3s ease;
+}
+
+#colorlib-testimony img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(106, 13, 173, 0.5);
+}
+
+/* About image polaroid effect */
+.about-img {
+    border: 8px solid #f8f8f8;
+    border-bottom: 50px solid #f8f8f8;
+    box-shadow: 0 10px 25px rgba(106, 13, 173, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.about-img:hover {
+    transform: scale(1.02);
+}

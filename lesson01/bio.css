@@ -376,6 +376,14 @@ section li::marker {
         letter-spacing: 1px;
     }
     
+    section h2 {
+        font-size: 1.3em;
+    }
+    
+    section h3 {
+        font-size: 1.1em;
+    }
+    
     main {
         grid-template-columns: 1fr;
         gap: 25px;
@@ -435,6 +443,14 @@ section li::marker {
         font-size: 1.8em;
     }
     
+    section h2 {
+        font-size: 1.2em;
+    }
+    
+    section h3 {
+        font-size: 1em;
+    }
+    
     .bio-photo {
         max-width: 240px;
         height: 320px;
@@ -487,6 +503,14 @@ section li::marker {
         letter-spacing: 0.5px;
     }
     
+    section h2 {
+        font-size: 1.1em;
+    }
+    
+    section h3 {
+        font-size: 0.95em;
+    }
+    
     main {
         gap: 20px;
     }
@@ -505,11 +529,6 @@ section li::marker {
     
     section h2 {
         font-size: 1.2em;
-    }
-    
-    section p {
-        font-size: 0.95em;
-        line-height: 1.5;
     }
     
     .fitness-gallery {
@@ -563,6 +582,14 @@ section li::marker {
 @media (max-width: 360px) {
     header h1 {
         font-size: 1.4em;
+    }
+    
+    section h2 {
+        font-size: 1em;
+    }
+    
+    section h3 {
+        font-size: 0.9em;
     }
     
     .bio-photo {
