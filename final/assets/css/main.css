@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
 * Template Name: Craftivo
 * Template URL: https://bootstrapmade.com/craftivo-bootstrap-portfolio-template/
@@ -5,8 +6,6 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-
-@charset "UTF-8";
 
 /*--------------------------------------------------------------
 # Font & Color Variables
@@ -654,7 +653,7 @@ h6 {
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
-    transition-delay: 0 !important;
+    transition-delay: 0s !important;
   }
 }
 
